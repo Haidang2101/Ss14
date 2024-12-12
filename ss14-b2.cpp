@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[] = "Hello World"; 
+    char str[] = "God Of War"; 
     for (int i = 0; i < sizeof(str); i++) {
         printf("%c ", str[i]);  
     }
