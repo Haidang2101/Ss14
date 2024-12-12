@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char str[] = "Hello,bro do you want to play the game?"; 
+    char str[] = "Hello bro, do you want to play the game?"; 
     char ch;
     int count = 0;
     printf("Nhap mot ky tu: ");
