@@ -1,12 +1,10 @@
-#include <stdio.h>
-
-int main() {
-    char str[] = "Hello World";
-printf("%d ", sizeof(str));  
-    for (int i = 0; i < sizeof(str); i++) {
-        printf("%c ", str[i]);  
-    }
-
-    return 0;
+#include<stdio.h>
+#include<string.h>
+int main(){
+	char arr[100];
+	printf("moi ban nhap vao mot chuoi bat ki:  ");
+	fgets(arr,100,stdin);
+	printf("chuoi ban vua nhap la: %s ",arr);
+	printf("mang co %d ky tu \n",strlen(arr));
+	return 0;
 }
-
